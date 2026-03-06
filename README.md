@@ -1,16 +1,14 @@
-## Hi there 👋
+# Clone the target repository (if you haven't already)
+git clone https://github.com/ItcProjects-R4/GHR4_DAT2_S1_PROJECT1.git
+cd GHR4_DAT2_S1_PROJECT1
 
-<!--
-**nadaalgohary07-hash/nadaalgohary07-hash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Download the file from your source repo
+git clone https://github.com/nadaalgohary07-hash/powerbi_project.git
+cp powerbi_project/"supermarket1_sales (2).pbix" .
 
-Here are some ideas to get you started:
+# Add and commit
+git add "supermarket1_sales (2).pbix"
+git commit -m "Add PowerBI supermarket sales file"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Push to target repo
+git push origin main
